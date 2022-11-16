@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# 동아리 발표회 : DEV_Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###### DEV: 프로그래밍 동아리 이름
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 목차
 
-### `npm start`
+1. 기획 [[바로가기]](#프로젝트-기획)
+2. 설계 [[바로가기]](#웹사이트-설계)
+3. 디자인 [[바로가기]](#사이트-디자인)
+4. 개발 [[바로가기]](#개발)
+5. 공유 [[바로가기]](#웹사이트-설계)
+   <br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br><br>
 
-### `npm test`
+## 프로젝트 기획
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 목적: 2022. 12월 23일에 진행하는 동아리 발표회에서 사용할 사이트
+- 프로젝트 성공 기준: 발표회 당일 원활한 사용이 가능하였는가
+- 사용 층: 동아리 발표회 부스에 찾아오는 학생, 선생님들을 대상으로 서비스 실시
+- 사용 기기: 윈도우 데스크탑, 모바일 기기 ( 태블릿 x )
 
-### `npm run build`
+<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 웹사이트 설계
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 대략적인 기능 :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. 메인화면
+2. 동아리 부스 소개
+3. 부스의 체험요소 안내
+4. 동아리에서 진행한 프로젝트 결과물 열람
 
-### `npm run eject`
+### 사이트 구조 설계 :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. 메인 페이지
+2. 동아리 부스 소개 페이지
+3. 체험요소 안내 페이지
+4. 랭킹 ( 확인 ) > 랭킹 등록 페이지 ( 모바일만 지원 O / Staff용 )
+5. 프로젝트 소개 페이지
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![]() <!--사이트 구조 이미지 삽입-->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 사용자 시나리오 :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### User :
 
-## Learn More
+- 부스내의 컴퓨터에서 사이트 이용시:
+  - 메인 페이지 > 동아리 부스 소개 페이지 > 프로젝트 소개 페이지 > 체험요소 안내 페이지
+- 부스 퇴장 후 랭크 확인:
+  - 랭킹 확인 페이지
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Staff :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 부스 내에서 대기중 사용자의 랭크 등록시:
+  - 랭킹 확인 페이지 > 랭킹 등록 페이지
 
-### Code Splitting
+<br><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 사이트 디자인
 
-### Analyzing the Bundle Size
+메인 색상:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Background color :
+  - <p style={color:#ffffff;backgroundcolor:#111111;}>#111111</p>
+- Sub colors :
+  - <p style={color:#ffffff;backgroundcolor:#222222;}>#222222</p>
+  - <p style={color:#ffffff;backgroundcolor:#343434;}>#343434</p>
+  - <p style={color:#ffffff;backgroundcolor:#808080;}>#808080</p>
+- point colors :
+  - <p style={color:#111111;backgroundcolor:#4669C7;}>#4669C7</p>
+  - <p style={color:#111111;backgroundcolor:#92B8F2;}>#92B8F2</p>
 
-### Making a Progressive Web App
+<br>
+글꼴:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Noto Sans KR
+- Gothic A1
 
-### Advanced Configuration
+<br>
+디자인 제작:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Tool : Figma
 
-### Deployment
+Img
+![]() <!--사이트 구조 이미지 삽입-->
+![]() <!--사이트 구조 이미지 삽입-->
+![]() <!--사이트 구조 이미지 삽입-->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br><br>
 
-### `npm run build` fails to minify
+## 개발
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 사용 언어 :
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white)
+![Nodejs](https://img.shields.io/badge/Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![Npm](https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+<br>
+
+### 사용 라이브러리 :
+
+![.ENV](https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white)
+![JSS](https://img.shields.io/badge/JSS-F7DF1E?style=for-the-badge&logo=JSS&logoColor=white)
+![styled-components](https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
