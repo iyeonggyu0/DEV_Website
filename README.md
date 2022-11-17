@@ -66,14 +66,14 @@
 메인 색상:
 
 - Background color :
-  - <p style={color:#ffffff;backgroundcolor:#111111;}>#111111</p>
+  - #111111
 - Sub colors :
-  - <p style={color:#ffffff;backgroundcolor:#222222;}>#222222</p>
-  - <p style={color:#ffffff;backgroundcolor:#343434;}>#343434</p>
-  - <p style={color:#ffffff;backgroundcolor:#808080;}>#808080</p>
+  - #222222
+  - #343434
+  - #808080
 - point colors :
-  - <p style={color:#111111;backgroundcolor:#4669C7;}>#4669C7</p>
-  - <p style={color:#111111;backgroundcolor:#92B8F2;}>#92B8F2</p>
+  - #4669C7
+  - #92B8F2
 
 <br>
 글꼴:
@@ -87,9 +87,10 @@
 - Tool : Figma
 
 Img
-![]() <!--사이트 구조 이미지 삽입-->
-![]() <!--사이트 구조 이미지 삽입-->
-![]() <!--사이트 구조 이미지 삽입-->
+![메인-페이지](https://user-images.githubusercontent.com/105581475/202333873-85d81668-3792-468b-b96c-997ca3d661a4.PNG)  
+![체험요소-안내-페이지](https://user-images.githubusercontent.com/105581475/202333930-c20a20e6-6424-4574-963e-2ecf788982f1.PNG)
+![랭킹-페이지](https://user-images.githubusercontent.com/105581475/202333937-213bc5e3-133b-4174-adf7-402112e8554a.PNG)
+
 
 <br><br>
 
