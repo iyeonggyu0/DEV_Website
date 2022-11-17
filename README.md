@@ -70,6 +70,8 @@
 - Sub colors :
   - #222222
   - #343434
+- font colors :
+  - #ffffff
   - #808080
 - point colors :
   - #4669C7
