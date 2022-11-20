@@ -1,6 +1,13 @@
 import { createGlobalStyle } from "styled-components";
+import { reset } from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+  ${reset}
   *,*::before, *::after{
 	margin: 0;
 	padding: 0;
