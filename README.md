@@ -70,8 +70,6 @@
 - Sub colors :
   - #222222
   - #343434
-- font colors :
-  - #ffffff
   - #808080
 - point colors :
   - #4669C7
@@ -92,7 +90,6 @@ Img
 ![메인-페이지](https://user-images.githubusercontent.com/105581475/202333873-85d81668-3792-468b-b96c-997ca3d661a4.PNG)  
 ![체험요소-안내-페이지](https://user-images.githubusercontent.com/105581475/202333930-c20a20e6-6424-4574-963e-2ecf788982f1.PNG)
 ![랭킹-페이지](https://user-images.githubusercontent.com/105581475/202333937-213bc5e3-133b-4174-adf7-402112e8554a.PNG)
-
 
 <br><br>
 

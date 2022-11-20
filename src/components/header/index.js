@@ -9,7 +9,7 @@ const Header = (props) => {
         <FontAwesomeIcon icon={solid("house")} inverse className="HeaderIcon" />
       </HeaderIconDivStyle>
       <HeaderTextDiv media={props.media} pageNum={props.pageNum}>
-        <p>안내사항</p>
+        <p>안내 사항</p>
         <p>체험 요소</p>
         <p>랭킹</p>
         <p>프로젝트 소개</p>
