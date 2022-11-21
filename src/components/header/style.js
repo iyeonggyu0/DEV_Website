@@ -33,26 +33,26 @@ export const HeaderTextDiv = styled.div`
   display: flex;
   justify-content: ${(props) => (props.media === "pc" ? "space-between" : "space-evenly")};
 
-  p {
+  .LinkStyle {
     font-family: Noto Sans KR;
     font-weight: 400;
     font-size: ${(props) => (props.media === "pc" ? "20px" : "14px")};
     transform: translate(0, 35%);
   }
 
-  p:first-child {
+  .LinkStyle1 {
     color: ${(props) => (props.pageNum === 1 ? "#ffffff" : "#808080")};
   }
 
-  p:nth-child(2) {
+  .LinkStyle2 {
     color: ${(props) => (props.pageNum === 2 ? "#ffffff" : "#808080")};
   }
 
-  p:nth-child(3) {
+  .LinkStyle3 {
     color: ${(props) => (props.pageNum === 3 ? "#ffffff" : "#808080")};
   }
 
-  p:nth-child(4) {
+  .LinkStyle4 {
     color: ${(props) => (props.pageNum === 4 ? "#ffffff" : "#808080")};
   }
 `;

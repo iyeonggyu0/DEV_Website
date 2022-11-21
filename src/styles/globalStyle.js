@@ -42,6 +42,12 @@ const GlobalStyle = createGlobalStyle`
     color: black;
     text-decoration: none;
   }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+  }
 `;
 
 export default GlobalStyle;

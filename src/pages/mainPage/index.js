@@ -1,15 +1,10 @@
 import Header from "../../components/header/index";
 import { MainPageBG } from "./style";
 
-import { useMediaQuery } from "react-responsive";
-import { useState, useEffect } from "react";
+import { useMedia } from "../../hooks/mediaHook";
 
 const MainPage = () => {
-  const mediaHandler = useMediaQuery({ minWidth: 992 });
-  const [media, setMedia] = useState("pc");
-  useEffect(() => {
-    mediaHandler === true ? setMedia("pc") : setMedia("mobile");
-  }, [mediaHandler]);
+  const media = useMedia();
 
   return (
     <>

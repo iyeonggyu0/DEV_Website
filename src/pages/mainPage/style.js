@@ -6,5 +6,6 @@ export const MainPageBG = styled.div`
   background-image: url(${(props) => (props.media === "pc" ? "/img/mainPage.png" : "/img/mainPageMobile.png")});
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center center;
+  background-position: top center;
+  background-position-y: -30px;
 `;
