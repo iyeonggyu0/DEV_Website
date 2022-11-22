@@ -13,6 +13,8 @@
 5. 공유 [[바로가기]](#웹사이트-설계)
    <br><br>
 
+- 커밋 내역 [[바로가기]](#커밋-내역)
+
 ---
 
 <br><br>
@@ -109,5 +111,106 @@ Img
 ### 사용 라이브러리 :
 
 ![.ENV](https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white)
-![JSS](https://img.shields.io/badge/JSS-F7DF1E?style=for-the-badge&logo=JSS&logoColor=white)
 ![styled-components](https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![Font-Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=Font-Awesome&logoColor=white)
+![AOS](https://img.shields.io/badge/AOS-5C6BBB?style=for-the-badge&logoColor=white)
+
+#
+
+<hr/>
+
+#
+
+## 커밋 내역
+
+#
+
+### first commit
+
+###### Nov 16, 2022
+
+- React-create-app
+
+#
+
+### Update README.md ( x2 )
+
+###### Nov 17, 2022
+
+- README.md Updata
+
+#
+
+### MainPage_2022_11_20
+
+###### Nov 20, 2022
+
+- Main Page
+- Header Components
+  - fontawesome ( Library )
+- GlobalStyle.js
+- theme
+  - ColorPalette
+  - fontSize
+  - fontWeight
+  - lineHeight
+- Media Query ( [수정](#guidePage_2022_11_21) )
+
+#
+
+### guidePage_2022_11_20
+
+###### Nov 20, 2022
+
+- Guide Page ( 부분 제작 )
+  - AOS ( Library )
+
+#
+
+### guidePage_2022_11_21
+
+###### Nov 21, 2022
+
+- Guide Page
+  - AOS ( Library )
+- Media Query
+
+  - Custom Hook을 사용하여 중복코드 ↓
+
+  <h6> MainPage_2022_11_20 commit ver<br>모든 Page에 해당 코드 작성<br><br>
+
+  ```
+  const mediaHandler = useMediaQuery({ minWidth: 992 });
+    const [media, setMedia] = useState("pc");
+    useEffect(() => {
+      mediaHandler === true ? setMedia("pc") : setMedia("mobile");
+    }, [mediaHandler]);
+
+  <Header media={media}/>
+  ```
+
+  <h6> guidePage_2022_11_21 commit ver<br>Custom Hook을 활용하여 코드 단축<br><br>
+
+  ```
+  export const useMedia = () => {
+    const mediaHandler = useMediaQuery({ minWidth: 992 });
+    const [media, setMedia] = useState("pc");
+    useEffect(() => {
+      mediaHandler === true ? setMedia("pc") : setMedia("mobile");
+    }, [mediaHandler]);
+    return media;
+  };
+  ```
+
+  ```
+  const media = useMedia();
+  <Header media={media}/>
+  ```
+
+#
+
+### elementPage_2022_11_22
+
+###### Nov 22, 2022
+
+- ElementPage ( 부분 제작 )

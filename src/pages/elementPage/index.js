@@ -9,7 +9,7 @@ import Header from "../../components/header";
 // import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 // Style
-import {} from "./style";
+import { ElementMobilePage, ElementPcPage, ElementImg, ElementMobileImg } from "./style";
 
 const ElementPage = () => {
   const media = useMedia();
@@ -17,6 +17,13 @@ const ElementPage = () => {
   return (
     <>
       <Header pageNum={2} media={media} />
+      <ElementPcPage style={{ display: media === "pc" ? "block" : "none" }}>
+        <ElementImg></ElementImg>
+      </ElementPcPage>
+      <ElementMobilePage style={{ display: media === "pc" ? "none" : "block" }}>
+        <p>체험 요소</p>
+        <ElementMobileImg></ElementMobileImg>
+      </ElementMobilePage>
     </>
   );
 };
