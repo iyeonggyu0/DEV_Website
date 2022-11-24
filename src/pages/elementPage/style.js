@@ -23,6 +23,12 @@ export const ElementImg = styled.div`
   border: 1px solid #fff;
 `;
 
+export const ClickTable1 = styled.div`
+  width: 15%;
+  height: 20%;
+  border: 1px solid #fff;
+`;
+
 // Mobile
 
 export const ElementMobilePage = styled.div`
