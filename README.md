@@ -117,13 +117,7 @@ Img
 
 #
 
-<hr/>
-
-#
-
 ## 커밋 내역
-
-#
 
 ### first commit
 
@@ -219,6 +213,6 @@ Img
 
 ### elementPage_2022_11_24
 
-###### Nov 22, 2022
+###### Nov 24, 2022
 
-- ElementPage - Component ( 부분 제작 )
+- ElementPage layout ( 부분제작 )
