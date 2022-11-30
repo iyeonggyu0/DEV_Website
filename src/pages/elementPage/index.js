@@ -2,16 +2,15 @@ import React from "react";
 import { useMedia } from "../../hooks/mediaHook";
 
 // Components
-import Header from "../../components/header";
-import ElementDivPC from "../../components/elementDiv_PC";
-import ElementDivMobile from "../../components/elementDiv_Mobile";
+import Header from "../../components/_header";
+import ElementComponent from "../../components/elementComponent";
 
 //Library
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 // Style
-import { ElementMobilePage, ElementPcPage, ElementImg, ElementMobileImg, ClickTable1 } from "./style";
+import { ElementMobilePage, ElementPcPage, ElementImg, ElementMobileImg } from "./style";
 
 const ElementPage = () => {
   const media = useMedia();
@@ -19,15 +18,36 @@ const ElementPage = () => {
   return (
     <>
       <Header pageNum={2} media={media} />
-
       <ElementPcPage style={{ display: media === "pc" ? "block" : "none" }}>
-        <ElementDivPC />
+        <ElementComponent table={1} />
         <ElementImg>
-          <ClickTable1>클릭</ClickTable1>
+          <div>
+            {/** 1번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
+          <div>
+            {/** 2번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
+          <div>
+            {/** 3번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
+          <div>
+            {/** 4번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
+          <div>
+            {/** 5번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
+          <div>
+            {/** 6번 */}
+            <FontAwesomeIcon icon={solid("caret-up")} fade />
+          </div>
         </ElementImg>
       </ElementPcPage>
       <ElementMobilePage style={{ display: media === "pc" ? "none" : "block" }}>
-        <ElementDivMobile />
         <p>체험 요소</p>
         <ElementMobileImg></ElementMobileImg>
       </ElementMobilePage>

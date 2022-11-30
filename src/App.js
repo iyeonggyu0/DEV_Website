@@ -8,7 +8,7 @@ import theme from "./styles/theme.js";
 // Page
 import MainPage from "./pages/mainPage/index";
 import GuidePage from "./pages/guidePage";
-import ElementPage from "./pages/elementPage";
+import ElementPage from "./pages/elementPage/index";
 
 // 나중에 삭제하기 * 폰트 어썸
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

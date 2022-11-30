@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useMedia } from "../../hooks/mediaHook";
 
 // Components
-import Header from "../../components/header";
+import Header from "../../components/_header";
 
 //Library
 import AOS from "aos";

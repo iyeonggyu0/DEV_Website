@@ -216,3 +216,20 @@ Img
 ###### Nov 24, 2022
 
 - ElementPage layout ( 부분제작 )
+
+#
+
+### Update README.md
+
+###### Nov 26, 2022
+
+- 계획 수정 작업
+
+#
+
+### elementPage_2022_11_30
+
+###### Nov 30, 2022
+
+- ElementPage layout 전체 수정
+- projectData.json 제작

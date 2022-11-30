@@ -21,12 +21,51 @@ export const ElementImg = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   border: 1px solid #fff;
-`;
 
-export const ClickTable1 = styled.div`
-  width: 15%;
-  height: 20%;
-  border: 1px solid #fff;
+  div {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    --fa-animation-duration: 2.5s;
+    --fa-fade-opacity: 0.6;
+    cursor: pointer;
+  }
+
+  div:nth-child(1) {
+    color: #222;
+    top: 66.3%;
+    left: 34.9%;
+  }
+
+  div:nth-child(2) {
+    color: #966dca;
+    top: 52%;
+    left: 47%;
+  }
+
+  div:nth-child(3) {
+    color: #6069bc;
+    top: 39.8%;
+    right: 39.3%;
+  }
+
+  div:nth-child(4) {
+    color: #777777;
+    bottom: 20%;
+    left: 43.5%;
+  }
+
+  div:nth-child(5) {
+    color: #ce7ad7;
+    bottom: 34.3%;
+    left: 56.2%;
+  }
+
+  div:nth-child(6) {
+    color: #6069bc;
+    top: 50%;
+    right: 30.5%;
+  }
 `;
 
 // Mobile

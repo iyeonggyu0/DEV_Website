@@ -1,4 +1,4 @@
-import Header from "../../components/header/index";
+import Header from "../../components/_header/index";
 import { MainPageBG } from "./style";
 
 import { useMedia } from "../../hooks/mediaHook";
