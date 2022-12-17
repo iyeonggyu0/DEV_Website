@@ -117,6 +117,34 @@ Img
 
 #
 
+DB 논리 모델링:
+
+- data table
+  - 학번
+  - 학년
+  - 반
+  - 번호
+  - 이름
+  - 전화번호
+  - 스쿨런 최고기록
+  - 다이노게임 최고기록
+  - 무한의 계단 최고기록
+
+DB 물리 모델링:
+
+- tb_user
+  - useridx (int) PK
+  - user_grade (int)
+  - user_class (int)
+  - user_number (int)
+  - user_name (varchar)
+  - user_phoneNumber (int)
+  - user_schoolRun_bestScore (int)
+  - user_dino_bestScore (int)
+  - user_stairs_bestScore (int)
+
+#
+
 ## 커밋 내역
 
 ### first commit
@@ -125,7 +153,7 @@ Img
 
 - React-create-app
 
-#
+<br/>
 
 ### Update README.md ( x2 )
 
@@ -133,7 +161,7 @@ Img
 
 - README.md Updata
 
-#
+<br/>
 
 ### MainPage_2022_11_20
 
@@ -150,7 +178,7 @@ Img
   - lineHeight
 - Media Query ( [수정](#guidePage_2022_11_21) )
 
-#
+<br/>
 
 ### guidePage_2022_11_20
 
@@ -159,7 +187,7 @@ Img
 - Guide Page ( 부분 제작 )
   - AOS ( Library )
 
-#
+<br/>
 
 ### guidePage_2022_11_21
 
@@ -201,7 +229,7 @@ Img
   <Header media={media}/>
   ```
 
-#
+<br/>
 
 ### elementPage_2022_11_22
 
@@ -209,7 +237,7 @@ Img
 
 - ElementPage ( 부분 제작 )
 
-#
+<br/>
 
 ### elementPage_2022_11_24
 
@@ -217,19 +245,29 @@ Img
 
 - ElementPage layout ( 부분제작 )
 
-#
+<br/>
 
 ### Update README.md
 
 ###### Nov 26, 2022
 
-- 계획 수정 작업
+- Update README.md
+- 사이트 계획 수정
 
-#
+<br/>
 
-### elementPage_2022_11_30
+### elementPage_2022_11_28
 
-###### Nov 30, 2022
+###### Nov 28, 2022
 
-- ElementPage layout 전체 수정
+- ElementPage layout 재구성
+- json-server npm설치
 - projectData.json 제작
+
+<br/>
+
+### DB modelling_2022_12_17
+
+###### Dec 17, 2022
+
+- MySQL create 'dev' modelling
