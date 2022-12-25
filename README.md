@@ -271,3 +271,16 @@ DB 물리 모델링:
 ###### Dec 17, 2022
 
 - MySQL create 'dev' modelling
+
+<br/>
+
+### Completion and distribution
+
+###### Dec 25, 2022
+
+- MySQL -> MongoDB로 변경
+- Schema, model 구성
+- REST API, CRUD 구성
+- Back에 정보를 저장할 Front 구성
+
+- 배포 ( HEROKU )
