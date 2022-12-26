@@ -81,7 +81,6 @@
 글꼴:
 
 - Noto Sans KR
-- Gothic A1
 
 <br>
 디자인 제작:
